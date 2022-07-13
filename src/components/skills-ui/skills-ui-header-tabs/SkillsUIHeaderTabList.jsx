@@ -3,9 +3,7 @@ import SkillsUIHeaderTabItem from './SkillsUIHeaderTabItem'
 
 const SkillsUIHeaderTabList = ({ tabs }) => {
   return (
-    <div className=''>
-      {console.log(tabs)}
-      HEADER TAB LIST
+    <div className='gap-4 flex flex-wrap'>
       {tabs && tabs.map(tab => <SkillsUIHeaderTabItem name={tab} />)}
     </div>
   )

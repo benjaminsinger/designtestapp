@@ -3,8 +3,7 @@ import SkillsUIHeader from '../skills-ui-header/SkillsUIHeader';
 const SkillsUIContainer = props => {
   return (
     <>
-    {console.log(props)}
-      <div className='p-4 bg-brand-primary text-white'>
+      <div className='text-white mx-auto pb-5 bg-brand-primary max-w-screen-xl rounded-t-xl overflow-hidden'>
         <SkillsUIHeader />
       </div>
     </>
