@@ -4,7 +4,7 @@ import SkillsUIHeaderTabList from '../skills-ui-header-tabs/SkillsUIHeaderTabLis
 const SkillsUIHeader = () => {
   return (
     <div className='bg-brand-tertiary px-10 pt-10 pb-0'>
-        <h2 className='text-xl font-bold mb-8'>Job Skills Report</h2>
+        <h2 className='text-xl font-bold mb-8'>Job skills report</h2>
         <SkillsUIHeaderTabList tabs={['Meta skills', 'Green skills']} />
     </div>
   )
