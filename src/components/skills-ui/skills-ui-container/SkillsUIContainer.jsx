@@ -1,14 +1,14 @@
 import { SkillsCard } from "../../skills-card/SkillsCard";
 import SkillsUIHeader from "../skills-ui-header/SkillsUIHeader";
+import SkillsUISubnav from "../skills-ui-subnav/SkillsUISubnav";
 
-const SkillsUIContainer = (props) => {
+const SkillsUIContainer = () => {
   return (
-    <>
-      <div className="text-white mx-auto pb-5 bg-brand-primary max-w-screen-xl rounded-t-xl overflow-hidden">
-        <SkillsUIHeader />
-        <SkillsCard />
-      </div>
-    </>
+    <div className="text-white mx-auto bg-brand-primary max-w-screen rounded-t-xl overflow-hidden">
+      <SkillsUIHeader />
+      <SkillsUISubnav />
+      <SkillsCard />
+    </div>
   );
 };
 
