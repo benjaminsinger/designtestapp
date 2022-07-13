@@ -25,7 +25,7 @@ module.exports = {
       "mint-green": "#eef3defa",
       "baby-blue": "#dde5f0",
       "light-yellow": "#fff3dd",
-      white: "#ffffff",
+      "white": "#ffffff",
     },
     fontFamily: {
       sans: ["Roboto", "sans-serif"],
