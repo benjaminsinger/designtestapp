@@ -3,9 +3,10 @@ import SkillsUIHeaderTabItem from './SkillsUIHeaderTabItem'
 
 const SkillsUIHeaderTabList = ({ tabs }) => {
   return (
-    <div>
+    <div className=''>
+      {console.log(tabs)}
       HEADER TAB LIST
-      {tabs && tabs.map(tab => <SkillsUIHeaderTabItem />)}
+      {tabs && tabs.map(tab => <SkillsUIHeaderTabItem name={tab} />)}
     </div>
   )
 }

@@ -5,7 +5,7 @@ const SkillsUIHeader = () => {
   return (
     <div className='bg-brand-tertiary'>
         <h2>Job Skills Report</h2>
-        <SkillsUIHeaderTabList />
+        <SkillsUIHeaderTabList tabs={['Meta Skills', 'Green Skills']} />
     </div>
   )
 }

@@ -1,8 +1,8 @@
 import React from 'react'
 
-const SkillsUIHeaderTabItem = () => {
+const SkillsUIHeaderTabItem = ({name}) => {
   return (
-    <div>Skills UI Header Tab Item</div>
+    <div>{name}</div>
   )
 }
 
