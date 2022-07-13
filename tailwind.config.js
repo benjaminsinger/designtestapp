@@ -31,15 +31,15 @@ module.exports = {
       sans: ["Roboto", "sans-serif"],
     },
     fontSize: {
-      xs: ['16px', '1.5'],
-      sm: ['20px', '1.1'],
-      md: ['24px', '1.1'],
-      lg: ['32px', '1.1'],
-      xl: ['40px', '1.1'],
-      xxl: ['50px', '1.1']
+      base: ["18px", "1.5"],
+      xs: ["16px", "1.5"],
+      sm: ["20px", "1.1"],
+      md: ["24px", "1.1"],
+      lg: ["32px", "1.1"],
+      xl: ["40px", "1.1"],
+      xxl: ["50px", "1.1"],
     },
-    extend: {
-    },
+    extend: {},
   },
   plugins: [],
-}
+};

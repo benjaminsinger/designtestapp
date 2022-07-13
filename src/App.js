@@ -1,11 +1,11 @@
 import SkillsUIContainer from './components/skills-ui/skills-ui-container/SkillsUIContainer';
+import { Hero } from "./components/hero/Hero";
 
 function App() {
   return (
     <div className="App">
-      <div className="container">
-        <SkillsUIContainer />
-      </div>
+      <Hero />
+      <SkillsUIContainer />
     </div>
   );
 }
